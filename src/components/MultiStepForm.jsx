@@ -20,9 +20,9 @@ export const MultiStepForm = ({ stepState }) => {
     };
 
     const displayToConsole = () => {
+        console.log("Your details are...");
         details &&
             Object.keys(details).forEach((e) => {
-                console.log("Your details are...");
                 console.log(e, " = ", details[e]);
             });
     };
